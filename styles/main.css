@@ -18,11 +18,13 @@ body {
 }
 
 .color--blue {
-  color: var(--blue);
+  color: var(--gray);
+  text-shadow: 1px 1px var(--blue);
 }
 
 .color--tan {
   color: var(--tan);
+  text-shadow: 1px 1px var(--peach);
 }
 
 .color--peach {
