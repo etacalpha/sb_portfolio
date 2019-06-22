@@ -8,10 +8,10 @@ build:
   build:
     commands:
       - echo nothing to do yet
-  artifacts:
-    files:
-      - index.html
-      - favicon.ico
-      - Steven_Beard.pdf
-      - styles/*
-      - images/*
+artifacts:
+  files:
+    - index.html
+    - favicon.ico
+    - Steven_Beard.pdf
+    - styles/*
+    - images/*
