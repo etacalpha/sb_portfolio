@@ -9,12 +9,12 @@ def lambda_handler(event, context):
     sns = boto3.resource('sns')
     topic = sns.Topic('arn:aws:sns:us-east-1:622479507228:deployPortfolio')
 
-    # location = {
-    #     "bucketName": "steven-beard.io-build",
-    #     "objectKey":    "portfolio_build.zip"
-    # }
+    location = {
+        "bucketName": "steven-beard.io-build",
+        "objectKey":    "portfolio_build.zip"
+    }
     try:
-        job = event.get["CodePipeline.job"]
+        job = event.get("CodePipeline.job")
 
         if job:
             for artifact in job["data"]["inputArtifacts"]:
