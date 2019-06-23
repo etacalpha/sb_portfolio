@@ -35,3 +35,4 @@ class ExampleBubble extends React.Component {
   }
 }
 export default Work;
+export { ExampleBubble };
