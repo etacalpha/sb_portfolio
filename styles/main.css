@@ -35,7 +35,7 @@ body {
   background-color: var(--lt-blue);
 }
 
-.section__example {
+.section__standout {
   background-color: var(--gray);
   border-radius: 50%;
   border: solid 2px var(--peach);
@@ -98,38 +98,38 @@ h6 {
   transform: translate(-50%, -50%);
 }
 
-.section__exampleWrapper,
-.section__example {
+.section__wrapper,
+.section__standout {
   display: inline-block;
   height: 30rem;
   width: 30rem;
 }
 
-.section__exampleWrapper {
+.section__wrapper {
   margin-right: 4rem;
 }
 
-.section__example {
+.section__standout {
   border-radius: 100%;
   cursor: pointer;
   overflow: hidden;
   position: relative;
 }
 
-.section__example:active {
+.section__standout:active {
   transition: 0.05s all;
   width: 34rem;
   height: 34rem;
 }
 
-.section__exampleTitle {
+.section__standoutTitle {
   font-size: 2.4rem;
   text-align: center;
   text-transform: uppercase;
   width: 90%;
 }
 
-.section__exampleImage {
+.section__standoutImage {
   opacity: 0.25;
   width: 250%;
   margin-left: -50%;
