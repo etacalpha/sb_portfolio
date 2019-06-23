@@ -5,10 +5,9 @@ phases:
     runtime-versions:
       nodejs: 10
 build:
-  build:
-    commands:
-      - npm install
-      - npm run webpack
+  commands:
+    - npm install
+    - npm run webpack
 artifacts:
   files:
     - index.html
