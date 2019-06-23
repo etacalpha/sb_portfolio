@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Arch Dev",
+    "image": {
+      "description": "screenshot of project",
+      "src": "images/archDev.png"
+    }
+  },
+  {
+    "title": "Blackjack",
+    "image": {
+      "description": "screenshot of project",
+      "src": "images/blackjack.png"
+    }
+  },
+  {
+    "title": "Cities Map",
+    "image": {
+      "description": "screenshot of project",
+      "src": "images/citiesMap.png"
+    }
+  },
+  {
+    "title": "Gallery",
+    "image": {
+      "description": "screenshot of project",
+      "src": "images/CMA.png"
+    }
+  },
+  {
+    "title": "Door to door sales app",
+    "image": {
+      "description": "screenshot of project",
+      "src": "images/doorToDoor.png"
+    }
+  },
+  {
+    "title": "Hope Just Found",
+    "image": {
+      "description": "screenshot of project",
+      "src": "images/hopeJustFound.png"
+    }
+  },
+  {
+    "title": "Location API",
+    "image": {
+      "description": "screenshot of project",
+      "src": "images/locationapi.png"
+    }
+  },
+  {
+    "title": "Vending Machine",
+    "image": {
+      "description": "screenshot of project",
+      "src": "images/vendingMachine.png"
+    }
+  }
+]

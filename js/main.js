@@ -1,5 +1,8 @@
-import 'react-dom'
+import React from 'react'
+import ReactDom from 'react-dom'
+import Work from './work.js'
 
-console.log("loaded react-dom");
 
-console.log("It is working");
+let myWork = require('../data/mywork.json');
+
+ReactDom.render(<Work work={myWork} />, document.getElementById('work'));
