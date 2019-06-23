@@ -1,1 +1,9 @@
 .code
+node_modules
+dist
+.npm
+jspm_packages
+.node_repl_history
+.lib-cov
+*.seed
+.lock-wscript
