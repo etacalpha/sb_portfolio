@@ -7,7 +7,8 @@ phases:
 build:
   build:
     commands:
-      - echo nothing to do yet
+      - npm install
+      - npm run webpack
 artifacts:
   files:
     - index.html
@@ -15,3 +16,4 @@ artifacts:
     - Steven_Beard.pdf
     - styles/*
     - images/*
+    - dist/bundle.js
