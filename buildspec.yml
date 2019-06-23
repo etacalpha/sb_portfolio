@@ -5,6 +5,7 @@ phases:
     runtime-versions:
       nodejs: 10
 build:
+  run-as: root
   commands:
     - npm install
     - npm run webpack
