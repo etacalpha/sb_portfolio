@@ -6,7 +6,7 @@ class WorkModal extends React.Component {
         let modalClass = this.props.open ? 'modal--open' : 'modal--closed';
 
         return (
-            <div className={modalClass} >
+            <div className={modalClass} id="modal">
                 <img alt={work.image.description} src={work.image.src} className="modal__image" />
                 <div className="color--tan modal__text">
                     <span className="color--tan modal__closeButton"
