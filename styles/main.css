@@ -6,7 +6,7 @@ body {
   font-family: "Cardo", serif;
   margin: 0;
   background-color: #d1e8e2;
-  --gray: #2c3531;
+  --gray: rgb(44, 53, 49);
   --blue: #116466;
   --tan: #d9b08c;
   --peach: #ffcb9a;
@@ -186,25 +186,25 @@ h6 {
 }
 
 .modal__closeButton {
-  position: absolute;
-  right: 2rem;
-  top: 5rem;
   font-size: 4rem;
   z-index: 1;
   cursor: pointer;
 }
 
 .modal__text {
+  background-color: rgb(44, 53, 49);
   position: absolute;
   top: 0;
   left: 0;
-  font-size: 2.4rem;
-  padding: 2rem;
-  width: 66%;
+  font-size: 1.75rem;
+  padding: 1rem;
+  width: 35%;
+  height: 100vh;
+  float: left;
 }
 
 .modal__link {
-  background-color: white;
+  background-color: var(--lt-blue);
   border-radius: 4px;
   padding: 0.4rem 1rem;
   text-transform: uppercase;
@@ -212,5 +212,8 @@ h6 {
 }
 
 .modal__image {
-  opacity: 0.2;
+  float: right;
+  opacity: 1;
+  width: 64%;
+  height: 100vh;
 }
