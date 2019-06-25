@@ -98,6 +98,11 @@ h6 {
   transform: translate(-50%, -50%);
 }
 
+.headings {
+  min-height: unset;
+  height: 8em;
+}
+
 .section__wrapper,
 .section__standout {
   display: inline-block;
