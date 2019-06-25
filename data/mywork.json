@@ -1,58 +1,98 @@
 [
   {
     "title": "Arch Dev",
+    "code": "https://github.com/etacalpha/archDev",
     "image": {
       "description": "screenshot of project",
       "src": "images/archDev.png"
+    },
+    "long_dsc": {
+      "tech": "Java 11, Spring Boot, Spring Hibernate/JPA, Lombok, h2 in memory database, Angular 7, CSS Grid, Bootstrap, Docker, Docker-Compose, NGINX, Node.js, Digital Ocean, Ubuntu/Arch Linux",
+      "dsc": "This was my original portfolio written with the above tech and hosted on Digital Ocean"
     }
   },
   {
     "title": "Blackjack",
+    "code": "https://github.com/etacalpha/learningApps/tree/master/python/games",
     "image": {
       "description": "screenshot of project",
       "src": "images/blackjack.png"
+    },
+    "long_dsc": {
+      "tech": "Python tkinter",
+      "dsc": "A simple game of blackjack"
     }
   },
   {
     "title": "Cities Map",
+    "code": "https://github.com/etacalpha/learningApps/tree/master/d3js/US_Cities",
     "image": {
       "description": "screenshot of project",
       "src": "images/citiesMap.png"
+    },
+    "long_dsc": {
+      "tech": "D3js, HTML, CSS, AWS(S3), CentOS/Arch Linux,",
+      "dsc": "This is a map with all the cities plotted by geolocation using D3js. The information for the cities is pulled from an API."
     }
   },
   {
     "title": "Gallery",
+    "code": "https://github.com/etacalpha/CMA-developer-code-test",
     "image": {
       "description": "screenshot of project",
       "src": "images/CMA.png"
+    },
+    "long_dsc": {
+      "tech": "Angular 7, Bootstrap 4",
+      "dsc": "This app takes a JSON file and parses it in order to display images, ordered by department. There is a detail view that displays additional information from the JSON file."
     }
   },
   {
     "title": "Door to door sales app",
+    "code": "https://github.com/etacalpha/techElevatorCapstones/tree/master/team-hat-8",
     "image": {
       "description": "screenshot of project",
       "src": "images/doorToDoor.png"
+    },
+    "long_dsc": {
+      "tech": "Java 8, JDBC, Postgres database, JSP, Spring Hibernate, Spring Security",
+      "dsc": "This app allows door to door sales managers to track salesman by location. Salesman/Supervisors can plot houses and plan routes. House details allow users to track orders and notes from a house call."
     }
   },
   {
     "title": "Hope Just Found",
+    "code": "https://github.com/etacalpha/HopeJustFound",
     "image": {
       "description": "screenshot of project",
       "src": "images/hopeJustFound.png"
+    },
+    "long_dsc": {
+      "tech": "Java 8, Spring Boot, Spring Hibernate/JPA, Lombok, Jhipster,JWT Authentication, h2 in mem database, Postgres database, Angular 7, CSS Grid, Bootstrap",
+      "dsc": "This app is for the Hue Jackson Foundation. It's purpose is to allow individuals/non-profits to list donations they have. Any verified non-profit can search through the listed donations for anything they need. If they find an item for donation they need they can view the contact information for the entity responsible for listing that donation. If the non-profit can not find anything they need, they can then make a listing for donation needed. Non-profits are verified by EIN. All users must create an account that has a verified email address. *** This app is currently under development, the current plan is to deploy on Digital Ocean with Docker."
     }
   },
   {
     "title": "Location API",
+    "code": "https://github.com/etacalpha/locationAPI",
     "image": {
       "description": "screenshot of project",
       "src": "images/locationapi.png"
+    },
+    "long_dsc": {
+      "tech": "Java 11, Spring Boot, Spring Hibernate/JPA, Lombok, h2 in memory database, Postgres database, Swagger-UI, Bootstrap, Docker, Docker-Compose, AWS(EC2), CentOS/Arch Linux",
+      "dsc": "This API returns location information about cities in the U.S. There are three endpoints to limit the amount of data returned"
     }
   },
   {
     "title": "Vending Machine",
+    "code": "https://github.com/etacalpha/techElevatorCapstones/tree/master/java-module-1-capstone-steven",
     "image": {
       "description": "screenshot of project",
       "src": "images/vendingMachine.png"
+    },
+    "long_dsc": {
+      "tech": "Java 8",
+      "dsc": "This is a command line app that mimics the operation of a vending machine to include giving change with minimal coins."
     }
   }
 ]
