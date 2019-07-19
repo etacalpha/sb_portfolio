@@ -1,5 +1,5 @@
 html {
-  font-size: 62.5%;
+  font-size: 40.5%;
 }
 
 body {
@@ -19,12 +19,12 @@ body {
 
 .color--blue {
   color: var(--gray);
-  text-shadow: 1px 1px var(--blue);
+  text-shadow: 0.25px 0.25px var(--blue);
 }
 
 .color--tan {
   color: var(--tan);
-  text-shadow: 1px 1px var(--peach);
+  text-shadow: 0.25px 0.25px var(--peach);
 }
 
 .color--peach {
@@ -68,7 +68,7 @@ h6 {
 */
 
 .section {
-  font-size: 4.2rem;
+  font-size: 3.2rem;
   min-height: 70vh;
   position: relative;
   padding-top: 5rem;
@@ -80,7 +80,7 @@ h6 {
 }
 
 .section--description {
-  font-size: 2.8rem;
+  font-size: 2rem;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
 }
@@ -128,7 +128,7 @@ h6 {
 }
 
 .section__standoutTitle {
-  font-size: 2.4rem;
+  font-size: 1.4rem;
   text-align: center;
   text-transform: uppercase;
   width: 90%;
@@ -167,7 +167,7 @@ h6 {
 
 .socialWrapper {
   display: inline-block;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 /*
@@ -191,7 +191,7 @@ h6 {
 }
 
 .modal__closeButton {
-  font-size: 4rem;
+  font-size: 3rem;
   z-index: 1;
   cursor: pointer;
 }
